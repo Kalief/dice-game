@@ -1,0 +1,28 @@
+body {
+  background-color: gray;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  display: inline-block;
+}
+
+.flag1, .flag2 {
+  height: 6rem;
+  display: none;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+}
+
+.player1 , .player2 {
+  padding: 5% 2%;
+}
+
+.player1 h3, .player2 h3 {
+  padding-bottom: 2rem;
+}
